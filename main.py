@@ -9,14 +9,17 @@ import schedule
 
 
 def on_detect(new: List[Announcement]):
-    print('아싸 새 공고다!')
-
     receiver = environ['SMS_RECEIVER']
     title = '병준이가 알려주는 LH임대 공고'
     body = f'새 공고 {len(new)}개 발견!\n'\
            + '\n'.join([f'\n- {a.name}(공고문: {a.pdf_url})' for a in new])
 
-    send_lms(receiver, title, body)
+    try:
+        send_lms(receiver, title, body)
+        print('알림 메시지 발송 성공!')
+
+    except Exception as e:
+        print(f'알림 메시지 발송 실패: {e}')
 
 
 def heartbeat():

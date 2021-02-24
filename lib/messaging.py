@@ -54,8 +54,13 @@ def send_lms(receiver: str, title: str, content: str):
         }
     }
 
-    requests.post(
+    response = requests.post(
         url='https://api.coolsms.co.kr/messages/v4/send',
         headers=get_headers(api_key, api_secret),
         json=payload
     )
+
+    succeeded = "정상" in response.text
+
+    if not succeeded:
+        raise Exception(response.text)
