@@ -3,7 +3,10 @@ from dataclasses import dataclass
 
 @dataclass
 class Announcement:
-    id: str
+    """
+    공고입니다.
+    """
+    id: int
     name: str
     region: str
     start_date: str
