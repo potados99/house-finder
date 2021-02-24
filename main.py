@@ -26,10 +26,14 @@ def heartbeat():
 if __name__ == '__main__':
     finder = HouseFinder(on_detect)
 
+    # 실행 직후 상태를 출력한 다음 공고를 확인합니다.
     heartbeat()
     finder.check_anything_new()
 
+    # 한 시간마다 상태를 출력하고
     schedule.every(1).hours.do(heartbeat)
+
+    # 여섯 시간마다 새 공고를 확인합니다.
     schedule.every(6).hours.do(finder.check_anything_new)
 
     while True:
