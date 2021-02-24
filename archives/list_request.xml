@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root xmlns="http://www.nexacroplatform.com/platform/dataset">
+	<Parameters>
+		<Parameter id="_fbp">fb.2.1614149425875.1149150497</Parameter>
+		<Parameter id="NetFunnel_ID" />
+	</Parameters>
+	<Dataset id="dsSch">
+		<ColumnInfo>
+			<Column id="PAN_NM" type="STRING" size="256"  />
+			<Column id="CNP_CD" type="STRING" size="256"  />
+			<Column id="PG_SZ" type="STRING" size="256"  />
+			<Column id="PAGE" type="STRING" size="256"  />
+			<Column id="CS_CD" type="STRING" size="256"  />
+			<Column id="PAN_ST_DT" type="STRING" size="256"  />
+			<Column id="PAN_ED_DT" type="STRING" size="256"  />
+			<Column id="CLSG_ST_DT" type="STRING" size="256"  />
+			<Column id="CLSG_ED_DT" type="STRING" size="256"  />
+			<Column id="UPP_AIS_TP_CD" type="STRING" size="256"  />
+			<Column id="PAN_SS" type="STRING" size="256"  />
+			<Column id="AIS_TP_CD" type="STRING" size="256"  />
+			<Column id="PREVIEW" type="STRING" size="256"  />
+			<Column id="SCH_TY" type="STRING" size="256"  />
+			<Column id="SCH_ARA" type="STRING" size="256"  />
+			<Column id="SCH_PAN_SS" type="STRING" size="256"  />
+			<Column id="AIS_TP_CD_INT" type="STRING" size="256"  />
+			<Column id="MVIN_QF" type="STRING" size="256"  />
+		</ColumnInfo>
+		<Rows>
+			<Row>
+				<Col id="CNP_CD">28</Col>
+				<Col id="PG_SZ">50</Col>
+				<Col id="PAGE">1</Col>
+				<Col id="CS_CD">CNP_CD</Col>
+				<Col id="PAN_ST_DT">20201224</Col>
+				<Col id="PAN_ED_DT">20210224</Col>
+				<Col id="CLSG_ST_DT" />
+				<Col id="CLSG_ED_DT" />
+				<Col id="UPP_AIS_TP_CD">06</Col>
+				<Col id="PAN_SS">ê³µê³ ì¤</Col>
+				<Col id="AIS_TP_CD">07</Col>
+				<Col id="PREVIEW">N</Col>
+				<Col id="SCH_TY">0</Col>
+				<Col id="SCH_ARA">28</Col>
+				<Col id="SCH_PAN_SS">1</Col>
+				<Col id="MVIN_QF" />
+			</Row>
+		</Rows>
+	</Dataset>
+</Root>

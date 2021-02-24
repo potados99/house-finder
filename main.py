@@ -1,8 +1,10 @@
-from HouseFinder import HouseFinder
+from AnnouncementRepository import AnnouncementRepository
 
 
 if __name__ == '__main__':
-    finder = HouseFinder()
-    r = finder.search()
-    print(r)
+    repo = AnnouncementRepository()
+
+    all = repo.get_current_announcements()
+
+    print(all)
 

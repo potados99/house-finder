@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root xmlns="http://www.nexacro.com/platform/dataset" ver="5000">
+	<Parameters/>
+	<Dataset id="dsList">
+		<ColumnInfo>
+			<Column id="CCR_CNNT_SYS_DS_CD" type="string" size="255"/>
+			<Column id="PAN_ID" type="string" size="255"/>
+			<Column id="PAN_KD_CD" type="string" size="255"/>
+			<Column id="PAN_KD_CD_NM" type="string" size="255"/>
+			<Column id="PAN_NM" type="string" size="255"/>
+			<Column id="ACP_ST_DTTM" type="string" size="255"/>
+			<Column id="ACP_ED_DTTM" type="string" size="255"/>
+			<Column id="PAN_DT" type="string" size="255"/>
+			<Column id="CLSG_DT" type="string" size="255"/>
+			<Column id="PAN_SS" type="string" size="255"/>
+			<Column id="CNP_CD" type="string" size="255"/>
+			<Column id="CNP_CD_NM" type="string" size="255"/>
+			<Column id="INQ_CNT" type="string" size="255"/>
+			<Column id="PAN_DTL_CTS" type="string" size="255"/>
+			<Column id="SPL_SCD_GUD_FCTS" type="string" size="255"/>
+			<Column id="IQY_TLNO" type="string" size="255"/>
+			<Column id="SIL_OFC_NM" type="string" size="255"/>
+			<Column id="SIL_OFC_TLNO" type="string" size="255"/>
+			<Column id="SIL_OFC_GUD_FCTS" type="string" size="255"/>
+			<Column id="CTRT_PLC_ROD_NM_ADR_YN" type="string" size="255"/>
+			<Column id="CTRT_PLC_ZC" type="string" size="255"/>
+			<Column id="CTRT_PLC_ADR" type="string" size="255"/>
+			<Column id="CTRT_PLC_DTL_ADR" type="string" size="255"/>
+			<Column id="CMN_AHFL_CNT" type="string" size="255"/>
+			<Column id="CMN_AHFL_NM" type="string" size="255"/>
+			<Column id="RNUM" type="string" size="255"/>
+			<Column id="ALL_CNT" type="string" size="255"/>
+			<Column id="PAGE" type="string" size="255"/>
+			<Column id="UPP_AIS_TP_CD" type="string" size="255"/>
+			<Column id="AIS_TP_CD_NM" type="string" size="255"/>
+			<Column id="AIS_TP_CD" type="string" size="255"/>
+			<Column id="OTXT_PAN_ID" type="string" size="255"/>
+			<Column id="AHFL_ICL_YN" type="string" size="255"/>
+			<Column id="PAN_NT_ST_DT" type="string" size="255"/>
+			<Column id="SPL_TP_CD" type="string" size="255"/>
+		</ColumnInfo>
+		<Rows>
+			<Row>
+				<Col id="CCR_CNNT_SYS_DS_CD">03</Col>
+				<Col id="PAN_ID">2015122300008224</Col>
+				<Col id="PAN_KD_CD">01</Col>
+				<Col id="PAN_KD_CD_NM">일반공고</Col>
+				<Col id="PAN_NM">인천주안역&#32;오피스텔&#32;선착순&#32;예비입주자&#32;모집&#32;공고(&apos;21.02.15.공고)</Col>
+				<Col id="ACP_ST_DTTM"></Col>
+				<Col id="ACP_ED_DTTM">2021-02-25&#32;23:00:00.0</Col>
+				<Col id="PAN_DT">20210215</Col>
+				<Col id="CLSG_DT">20210225</Col>
+				<Col id="PAN_SS">공고중</Col>
+				<Col id="CNP_CD">28</Col>
+				<Col id="CNP_CD_NM">인천광역시</Col>
+				<Col id="INQ_CNT">24271</Col>
+				<Col id="PAN_DTL_CTS"></Col>
+				<Col id="SPL_SCD_GUD_FCTS"></Col>
+				<Col id="IQY_TLNO">1600-1004</Col>
+				<Col id="SIL_OFC_NM"></Col>
+				<Col id="SIL_OFC_TLNO">1600-1004</Col>
+				<Col id="SIL_OFC_GUD_FCTS">현장추첨&#32;:&#32;현장을&#32;방문하여&#32;추첨&#32;후,&#32;계약체결&#32;및&#32;청약서류를&#32;제출하여&#32;주시기&#32;바랍니다.&#10;추첨장소&#32;:&#32;인천광역시&#32;미추홀구&#32;주안로117-16(주안동&#32;124-1번지)&#32;LH주안역행복주택&#32;단지&#32;관리사무소&#10;안내사항&#32;:&#32;코로나19&#32;바이러스&#32;확산방지를&#32;위해&#32;방문시&#32;열체크&#32;및&#32;마스크착용은&#32;필수이며,&#32;마스크&#32;미착용시&#32;입장이&#32;제한됨을&#32;알려드립니다.&#10;&#10;&#32;※&#32;추첨&#32;및&#32;계약장소를&#32;반드시&#32;확인&#32;하신&#32;후,&#32;방문하여&#32;주시기&#32;바랍니다.</Col>
+				<Col id="CTRT_PLC_ROD_NM_ADR_YN">Y</Col>
+				<Col id="CTRT_PLC_ZC">22149</Col>
+				<Col id="CTRT_PLC_ADR">인천광역시&#32;미추홀구&#32;경인로&#32;434(주안동)</Col>
+				<Col id="CTRT_PLC_DTL_ADR">에이스빌딩&#32;8층</Col>
+				<Col id="CMN_AHFL_CNT">6</Col>
+				<Col id="CMN_AHFL_NM">theme://images/ico_File.png</Col>
+				<Col id="RNUM">2</Col>
+				<Col id="ALL_CNT">2</Col>
+				<Col id="PAGE">1</Col>
+				<Col id="UPP_AIS_TP_CD">06</Col>
+				<Col id="AIS_TP_CD_NM">국민임대</Col>
+				<Col id="AIS_TP_CD">07</Col>
+				<Col id="OTXT_PAN_ID"></Col>
+				<Col id="AHFL_ICL_YN">N</Col>
+				<Col id="PAN_NT_ST_DT">20210215</Col>
+				<Col id="SPL_TP_CD">14</Col>
+			</Row>
+			<Row>
+				<Col id="CCR_CNNT_SYS_DS_CD">03</Col>
+				<Col id="PAN_ID">2015122300008195</Col>
+				<Col id="PAN_KD_CD">01</Col>
+				<Col id="PAN_KD_CD_NM">일반공고</Col>
+				<Col id="PAN_NM">인천영종&#32;A67블록&#32;국민임대&#32;신혼부부특화단지&#32;입주자모집</Col>
+				<Col id="ACP_ST_DTTM">2021-02-25&#32;10:00:00.0</Col>
+				<Col id="ACP_ED_DTTM">2021-03-04&#32;18:10:00.0</Col>
+				<Col id="PAN_DT">20210129</Col>
+				<Col id="CLSG_DT">20210304</Col>
+				<Col id="PAN_SS">공고중</Col>
+				<Col id="CNP_CD">28</Col>
+				<Col id="CNP_CD_NM">인천광역시</Col>
+				<Col id="INQ_CNT">37244</Col>
+				<Col id="PAN_DTL_CTS"></Col>
+				<Col id="SPL_SCD_GUD_FCTS"></Col>
+				<Col id="IQY_TLNO">1600-1004</Col>
+				<Col id="SIL_OFC_NM"></Col>
+				<Col id="SIL_OFC_TLNO">1600-1004</Col>
+				<Col id="SIL_OFC_GUD_FCTS">※&#32;접수처는&#32;현장접수기간만&#32;운영하며&#32;신청자격별&#32;접수일이&#32;상이하오니&#32;반드시&#32;입주자모집&#32;공고문을&#32;확인하시기&#32;바랍니다.&#10;&#10;□&#32;청약접수는&#32;인터넷(https://apply.lh.or.kr)&#32;및&#32;모바일(App:&#32;LH청약센터)로&#32;진행하며&#32;장애인&#32;및&#32;만65세&#32;이상&#32;고령자등&#32;인터넷&#32;사용이&#32;어려운&#32;고객에&#32;한하여&#32;현장접수를&#32;진행합니다.</Col>
+				<Col id="CTRT_PLC_ROD_NM_ADR_YN">Y</Col>
+				<Col id="CTRT_PLC_ZC">21655</Col>
+				<Col id="CTRT_PLC_ADR">인천광역시&#32;남동구&#32;논현로46번길&#32;23(논현동)</Col>
+				<Col id="CTRT_PLC_DTL_ADR"></Col>
+				<Col id="CMN_AHFL_CNT">7</Col>
+				<Col id="CMN_AHFL_NM">theme://images/ico_File.png</Col>
+				<Col id="RNUM">1</Col>
+				<Col id="ALL_CNT">2</Col>
+				<Col id="PAGE">1</Col>
+				<Col id="UPP_AIS_TP_CD">06</Col>
+				<Col id="AIS_TP_CD_NM">국민임대</Col>
+				<Col id="AIS_TP_CD">07</Col>
+				<Col id="OTXT_PAN_ID"></Col>
+				<Col id="AHFL_ICL_YN">N</Col>
+				<Col id="PAN_NT_ST_DT">20210129</Col>
+				<Col id="SPL_TP_CD">14</Col>
+			</Row>
+		</Rows>
+	</Dataset>
+	<Dataset id="gdsLoginCheck">
+		<ColumnInfo>
+			<Column id="YN" type="string" size="255"/>
+		</ColumnInfo>
+		<Rows>
+			<Row>
+				<Col id="YN">N</Col>
+			</Row>
+		</Rows>
+	</Dataset>
+</Root>

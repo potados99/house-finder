@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root xmlns="http://www.nexacroplatform.com/platform/dataset">
+	<Parameters>
+		<Parameter id="_fbp">fb.2.1614149425875.1149150497</Parameter>
+		<Parameter id="NetFunnel_ID" />
+	</Parameters>
+	<Dataset id="dsSch">
+		<ColumnInfo>
+			<Column id="PAN_ID" type="STRING" size="256"  />
+			<Column id="CCR_CNNT_SYS_DS_CD" type="STRING" size="256"  />
+			<Column id="PREVIEW" type="STRING" size="256"  />
+		</ColumnInfo>
+		<Rows>
+			<Row>
+				<Col id="PAN_ID">2015122300008224</Col>
+				<Col id="CCR_CNNT_SYS_DS_CD">03</Col>
+			</Row>
+		</Rows>
+	</Dataset>
+</Root>
