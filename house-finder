@@ -1,0 +1,4 @@
+#!/bin/bash
+
+source ./exports.sh
+python3.7 main.py
